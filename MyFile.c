@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-	println("Hello World");
+	std::string name = "Ilana";
+	printf("Hello World %s", name);
 	
 	return 0;
 }
